@@ -13,7 +13,6 @@ import com.payelpaul.mvmvvm.utils.NetworkCheck
 class PopularRepository(private val personService: PersonService,
                         private val artistDataBase: ArtistDataBase,
                         private val context: Context
-
 ) {
 
     private val popularLiveData = MutableLiveData<PopularList>()
